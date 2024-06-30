@@ -77,7 +77,7 @@ In this final iteration, the average episode length remained at 1000, and the av
 
 
 
-Here is a summary of the training process:
+## Here is a summary of the training process:
 
 Iterations 1-5: The average episode length was consistently 1000, with the average episode reward gradually increasing from 9.1 to 10.8. The training FPS ranged between 533 and 540. Key metrics such as the approximate KL divergence (0.0018 to 0.0056), entropy loss (-2.83 to -2.82), explained variance (0.224 to 0.522), and learning rate (0.0001) remained relatively stable, while the policy gradient loss and value loss showed slight variations.
 
@@ -92,7 +92,7 @@ Iterations 21-25: The average episode reward increased from 12.3 to 14.4. The tr
 
 Overall, the training process showed a consistent improvement in average episode reward, with key metrics such as KL divergence, entropy loss, explained variance, and learning rate remaining relatively stable. The training FPS was consistent, indicating a steady training pace.
 
-Certainly! Here is a summarized version of the episode returns data:
+## Certainly! Here is a summarized version of the episode returns data:
 
 The agent's performance across 25 episodes shows varying returns:
 
