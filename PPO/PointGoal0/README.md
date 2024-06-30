@@ -41,7 +41,7 @@
 20. At the twentieth iteration, the episode length mean is still 1000, and the episode reward mean increases to 11.8. The fps is 573, with a total time elapsed of 105 seconds and 60000 total timesteps. The approximate KL divergence is 0.0048239266, the clip fraction is 0.0453, the clip range is 0.2, and the entropy loss is -2.78. The explained variance is 0.768, the learning rate is 0.0001, the loss is -0.00138, and there have been 190 updates. The policy gradient loss is -0.0031, the standard deviation is 0.98, and the value loss is 0.0137.
 21. 
 # Summary of Iterations
-Iteration 1-5:
+## Iteration 1-5:
 
 Episode Length Mean: Remains constant at 1000.
 Episode Reward Mean: Starts at 9.23 and increases slightly to 9.26 by iteration 5.
@@ -57,7 +57,8 @@ Loss: Negative initially, slightly increases to -0.00232.
 Policy Gradient Loss: Small negative values.
 Standard Deviation: Slightly decreases from 0.997 to 0.99.
 Value Loss: Minor fluctuations, ending at 0.00658.
-Iteration 6-10:
+
+## Iteration 6-10:
 
 Episode Length Mean: Constant at 1000.
 Episode Reward Mean: Increases from 9.26 to 10.1 by iteration 10.
@@ -73,7 +74,7 @@ Loss: Moves to a small positive value of 0.000392.
 Policy Gradient Loss: Slightly negative values.
 Standard Deviation: Continues decreasing to 0.986.
 Value Loss: Increases to 0.0129.
-Iteration 11-15:
+## Iteration 11-15:
 
 Episode Length Mean: Constant at 1000.
 Episode Reward Mean: Increases from 10.2 to 11.1.
@@ -89,7 +90,8 @@ Loss: Slightly positive, around 0.00076.
 Policy Gradient Loss: Consistently negative but minor.
 Standard Deviation: Stabilizes around 0.98.
 Value Loss: Continues minor fluctuations, ending at 0.0174.
-Iteration 16-20:
+
+## Iteration 16-20:
 
 Episode Length Mean: Constant at 1000.
 Episode Reward Mean: Increases from 11.2 to 11.8.
