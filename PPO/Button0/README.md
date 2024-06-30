@@ -1,3 +1,5 @@
+# PPO Point Goal0 
+
 Iteration 1:
 The average episode length was 1000, and the average episode reward was 4.91. The training FPS was 478, with total timesteps reaching 3000, and a time elapsed of 6 seconds. The training metrics included an approximate KL divergence of 0.0016, a clip fraction of 0.5%, and a clip range of 0.2. The entropy loss was -2.82, and the explained variance was -0.00495. The learning rate was set at 0.0001, with a loss of 0.00236, number of updates at 10, a policy gradient loss of -0.000396, a standard deviation of 0.999, and a value loss of 0.00276.
 
@@ -83,8 +85,20 @@ Iterations 6-10: The average episode reward continued to improve, reaching 11. T
 
 Iterations 11-15: The average episode reward increased from 11 to 11.4, with the training FPS ranging from 544 to 546. The approximate KL divergence remained between 0.003 and 0.005, and the entropy loss stayed at -2.82. The explained variance ranged from 0.426 to 0.587. The learning rate was constant at 0.0001, with slight variations in the policy gradient loss and value loss.
 
-Iterations 16-20: The average episode reward continued to rise, reaching 12.2. The training FPS ranged from 546 to 547. The approximate KL divergence varied from 0.0027 to 0.005, with the entropy loss remaining at -2.82. The explained variance fluctuated between 0.496 and 0.671. The learning rate stayed at 0.0001, with minor changes in the policy gradient loss and value loss.
+Iterations 16-20: The average episode reward continued to rise, reaching 12.2. The training FPS ranged from 546 to 547. The approximate KL divergence varied from 0.0027 to 0.005, with the entropy loss remaining at -2.82. The explained variance fluctuated between 0.496 and 0.671. The learning rate stayed at 0.0001, with minor changes in the policy gradient loss and value loss
+
 
 Iterations 21-25: The average episode reward increased from 12.3 to 14.4. The training FPS was consistent at 548. The approximate KL divergence ranged from 0.0029 to 0.0045, and the entropy loss remained at -2.82. The explained variance improved, reaching up to 0.72. The learning rate was constant at 0.0001, with minor fluctuations in the policy gradient loss and value loss.
 
 Overall, the training process showed a consistent improvement in average episode reward, with key metrics such as KL divergence, entropy loss, explained variance, and learning rate remaining relatively stable. The training FPS was consistent, indicating a steady training pace.
+
+Certainly! Here is a summarized version of the episode returns data:
+
+The agent's performance across 25 episodes shows varying returns:
+
+Episode returns range from 18.272 to 40.984.
+The average return is approximately 28.26.
+Episode costs are consistently reported as 0.000, indicating no incurred costs.
+This data suggests the agent achieves moderate to high returns consistently, with no associated costs observed during these episodes.
+![ppopointbuttton0](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/cd589faa-ae4e-479f-97d1-7a9cfd402a85)
+
