@@ -126,5 +126,6 @@ The returns fluctuate around a certain mean value, indicating stable performance
 Episodes such as the 14th and 25th exhibit lower returns compared to others, which might indicate challenges or specific conditions in those episodes.
 Overall, the returns suggest a successful performance in achieving the simulation's objectives without notable costs or penalties.
 This summary encapsulates the key points from the provided episode data, highlighting the range and consistency of returns observed across the simulation episodes
-![PpopointGoal](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/dea2974a-b2f6-4e7a-985f-18ae67b94634)
+
+![PpopointGoal](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/5088d745-cb4b-45ae-8ca8-f7dbc90d52d1)
 
