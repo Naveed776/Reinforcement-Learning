@@ -1,4 +1,4 @@
-# PPO Point Goal0 
+# PPO Point Button0 
 
 Iteration 1:
 The average episode length was 1000, and the average episode reward was 4.91. The training FPS was 478, with total timesteps reaching 3000, and a time elapsed of 6 seconds. The training metrics included an approximate KL divergence of 0.0016, a clip fraction of 0.5%, and a clip range of 0.2. The entropy loss was -2.82, and the explained variance was -0.00495. The learning rate was set at 0.0001, with a loss of 0.00236, number of updates at 10, a policy gradient loss of -0.000396, a standard deviation of 0.999, and a value loss of 0.00276.
