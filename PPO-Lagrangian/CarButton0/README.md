@@ -17,3 +17,11 @@ At 115 seconds, the fps was 363, with 14 iterations and a total of 42000 timeste
 At 123 seconds, the fps was 364, with 15 iterations and a total of 45000 timesteps. Training data: approx_kl of 0.012463698, clip_fraction of 0.135, clip_range of 0.2, entropy_loss of -2.77, explained_variance of 0.399, learning_rate of 0.0002, loss of 0.0323, n_updates of 140, policy_gradient_loss of -0.0126, std of 0.968, and value_loss of 0.0704.
 At 131 seconds, the fps was 366, with 16 iterations and a total of 48000 timesteps. Training data: approx_kl of 0.009051221, clip_fraction of 0.114, clip_range of 0.2, entropy_loss of -2.77, explained_variance of 0.459, learning_rate of 0.0002, loss of -0.0118, n_updates of 150, policy_gradient_loss of -0.013, std of 0.963, and value_loss of 0.0836.
 At 139 seconds, the fps was 366, with 17 iterations and a total of 51000 timesteps. Training data: approx_kl of 0.010091343, clip_fraction of 0.111, clip_range of 0.2, entropy_loss of -2.75, explained_variance of 0.367, learning_rate of 0.0002, loss of 0.0194, n_updates of 160, policy_gradient_loss of -0.011, std of 0.948, and value_loss of 0.0699.
+[Screencast from 07-01-2024 08:22:45 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/5e147997-8029-4ca6-b02f-9e2151e66897)
+
+Average Return: Approximately 9.07
+Minimum Return: 1.476 (Episode 20)
+Maximum Return: 13.758 (Episode 8)
+Range of Returns: 12.282 (from 1.476 to 13.758)
+These statistics give a quick overview of the performance across the 25 episodes, focusing on the range and central tendency of the returns observed.
+![Figure_1](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/abc1738e-e6c9-4fbb-a054-a1469688cf6d)
