@@ -1,4 +1,4 @@
-Here is the data converted into sentences:
+# PointButton0
 
 1. At iteration 1, the system ran at 437 FPS, with 3,000 total timesteps completed in 6 seconds.
 2. At iteration 2, the system ran at 397 FPS, completing 6,000 total timesteps in 15 seconds. The training metrics were: approx_kl = 0.0058644996, clip_fraction = 0.0586, clip_range = 0.2, entropy_loss = -2.84, explained_variance = -11.7, learning_rate = 0.0002, loss = 0.00236, n_updates = 10, policy_gradient_loss = -0.00315, std = 0.999, and value_loss = 0.00428.
@@ -16,9 +16,7 @@ Here is the data converted into sentences:
 14. At iteration 14, the system ran at 403 FPS, completing 42,000 total timesteps in 104 seconds. The training metrics were: approx_kl = 0.009399574, clip_fraction = 0.126, clip_range = 0.2, entropy_loss = -2.67, explained_variance = 0.0877, learning_rate = 0.0002, loss = 0.0427, n_updates = 130, policy_gradient_loss = -0.00358, std = 0.918, and value_loss = 0.163.
 15. At iteration 15, the system ran at 404 FPS, completing 45,000 total timesteps in 111 seconds. The training metrics were: approx_kl = 0.0093725715, clip_fraction = 0.124, clip_range = 0.2, entropy_loss = -2.66, explained_variance = 0.366, learning_rate = 0.0002, loss = 0.0524, n_updates = 140, policy_gradient_loss = -0.00531, std = 0.916, and value_loss = 0.147.
 16. At iteration 16, the system ran at 402 FPS, completing 48,000 total timesteps in 119 seconds. The training metrics were: approx_kl = 0.00881822, clip_fraction = 0.111, clip_range = 0.2, entropy_loss = -2.66, explained_variance = 0.349, learning_rate = 0.0002, loss = 0.0254, n_updates = 150, policy_gradient_loss = -0.00153, std = 0.913, and value_loss = 0.202.
-17. At iteration 17, the system ran at 401 FPS, completing 51,000 total timesteps in 126 seconds. The training metrics were: approx_kl = 0.00953429, clip_fraction = 0.123, clip_range = 0.2, entropy_loss = -2.65, explained_variance = 0.494, learning_rate = 0.0002, loss = 0.163, n_updates = 160, policy_gradient_loss = -0.
-
-00855, std = 0.912, and value_loss = 0.118.
+17. At iteration 17, the system ran at 401 FPS, completing 51,000 total timesteps in 126 seconds. The training metrics were: approx_kl = 0.00953429, clip_fraction = 0.123, clip_range = 0.2, entropy_loss = -2.65, explained_variance = 0.494, learning_rate = 0.0002, loss = 0.163, n_updates = 160, policy_gradient_loss = -0.00855, std = 0.912, and value_loss = 0.118.
 18. At iteration 18, the system ran at 400 FPS, completing 54,000 total timesteps in 134 seconds. The training metrics were: approx_kl = 0.01001672, clip_fraction = 0.107, clip_range = 0.2, entropy_loss = -2.64, explained_variance = 0.438, learning_rate = 0.0002, loss = 0.00898, n_updates = 170, policy_gradient_loss = -0.00334, std = 0.911, and value_loss = 0.0936.
 19. At iteration 19, the system ran at 400 FPS, completing 57,000 total timesteps in 141 seconds. The training metrics were: approx_kl = 0.011042396, clip_fraction = 0.128, clip_range = 0.2, entropy_loss = -2.64, explained_variance = 0.423, learning_rate = 0.0002, loss = 0.124, n_updates = 180, policy_gradient_loss = -0.00365, std = 0.908, and value_loss = 0.107.
 20. At iteration 20, the system ran at 399 FPS, completing 60,000 total timesteps in 149 seconds. The training metrics were: approx_kl = 0.008650396, clip_fraction = 0.12, clip_range = 0.2, entropy_loss = -2.64, explained_variance = 0.402, learning_rate = 0.0002, loss = 0.00632, n_updates = 190, policy_gradient_loss = -0.00328, std = 0.907, and value_loss = 0.131.
@@ -35,9 +33,7 @@ Here is the data converted into sentences:
 31. At iteration 31, the system ran at 394 FPS, completing 93,000 total timesteps in 232 seconds. The training metrics were: approx_kl = 0.012001871, clip_fraction = 0.134, clip_range = 0.2, entropy_loss = -2.6, explained_variance = 0.492, learning_rate = 0.0002, loss = 0.0393, n_updates = 300, policy_gradient_loss = -0.00473, std = 0.9, and value_loss = 0.109.
 32. At iteration 32, the system ran at 394 FPS, completing 96,000 total timesteps in 240 seconds. The training metrics were: approx_kl = 0.010650867, clip_fraction = 0.13, clip_range = 0.2, entropy_loss = -2.59, explained_variance = 0.48, learning_rate = 0.0002, loss = 0.0414, n_updates = 310, policy_gradient_loss = -0.00257, std = 0.9, and value_loss = 0.132.
 33. At iteration 33, the system ran at 394 FPS, completing 99,000 total timesteps in 247 seconds. The training metrics were: approx_kl = 0.01029073, clip_fraction = 0.136, clip_range = 0.2, entropy_loss = -2.59, explained_variance = 0.454, learning_rate = 0.0002, loss = 0.035, n_updates = 320, policy_gradient_loss = -0.00386, std = 0.899, and value_loss = 0.12.
-34. At iteration 34, the system ran at 394 FPS,
-
- completing 102,000 total timesteps in 255 seconds. The training metrics were: approx_kl = 0.010078527, clip_fraction = 0.135, clip_range = 0.2, entropy_loss = -2.59, explained_variance = 0.479, learning_rate = 0.0002, loss = 0.0757, n_updates = 330, policy_gradient_loss = -0.00282, std = 0.899, and value_loss = 0.121.
+34. At iteration 34, the system ran at 394 FPS,completing 102,000 total timesteps in 255 seconds. The training metrics were: approx_kl = 0.010078527, clip_fraction = 0.135, clip_range = 0.2, entropy_loss = -2.59, explained_variance = 0.479, learning_rate = 0.0002, loss = 0.0757, n_updates = 330, policy_gradient_loss = -0.00282, std = 0.899, and value_loss = 0.121.
 35. At iteration 35, the system ran at 394 FPS, completing 105,000 total timesteps in 262 seconds. The training metrics were: approx_kl = 0.010022693, clip_fraction = 0.13, clip_range = 0.2, entropy_loss = -2.58, explained_variance = 0.469, learning_rate = 0.0002, loss = 0.0723, n_updates = 340, policy_gradient_loss = -0.00307, std = 0.898, and value_loss = 0.0842.
 36. At iteration 36, the system ran at 393 FPS, completing 108,000 total timesteps in 270 seconds. The training metrics were: approx_kl = 0.009927348, clip_fraction = 0.132, clip_range = 0.2, entropy_loss = -2.58, explained_variance = 0.461, learning_rate = 0.0002, loss = 0.0831, n_updates = 350, policy_gradient_loss = -0.00405, std = 0.898, and value_loss = 0.102.
 37. At iteration 37, the system ran at 393 FPS, completing 111,000 total timesteps in 277 seconds. The training metrics were: approx_kl = 0.010185299, clip_fraction = 0.126, clip_range = 0.2, entropy_loss = -2.57, explained_variance = 0.482, learning_rate = 0.0002, loss = 0.0354, n_updates = 360, policy_gradient_loss = -0.00308, std = 0.897, and value_loss = 0.0994.
@@ -48,3 +44,34 @@ Here is the data converted into sentences:
 Overall, the system's performance showed a general trend of completing about 3,000 timesteps per iteration, with the FPS remaining fairly consistent around 400 FPS. The training metrics varied across iterations but showed general trends and fluctuations typical in PPO training.
 
 [Screencast from 07-01-2024 07:46:42 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/0265c1a6-fb33-4542-847d-c4eb52bd26a0)
+# Summary
+Iterations and Performance:
+
+The system completed 3,000 timesteps per iteration, maintaining an average FPS of around 400.
+The total time for 40 iterations was approximately 300 seconds.
+Training Metrics:
+
+Approximate KL Divergence: Fluctuated between 0.0086 and 0.012, indicating the extent of policy changes.
+Clip Fraction: Varied between 0.107 and 0.136, reflecting the proportion of updates that were clipped.
+Entropy Loss: Remained consistently around -2.64 to -2.57, indicating the policy's randomness.
+Explained Variance: Showed variability from 0.423 to 0.550, reflecting the proportion of variance in the returns explained by the value function.
+Learning Rate: Consistently at 0.0002 throughout the iterations.
+Total Loss: Varied, with notable fluctuations, e.g., 0.00632, 0.124, 0.0757.
+Policy Gradient Loss: Typically negative, ranging from around -0.00618 to -0.0021, indicating the direction of the gradient update.
+Standard Deviation (std): Decreased slightly over time from 0.913 to 0.895, reflecting reduced exploration as the policy converged.
+Value Loss: Varied significantly, indicating fluctuations in the value function's accuracy.
+Overall, the system exhibited consistent performance in terms of FPS and timesteps per iteration, with training metrics displaying expected fluctuations typical in PPO training. The model showed gradual convergence with slight decreases in standard deviation, indicating stability in the policy updates.
+
+
+Here's a summary of the episode returns and costs:
+
+In Episode 1, the return was 28.841 with no cost incurred. Episode 2 saw a return of 24.126, again with no cost. Episode 3 had a return of 18.640 and no cost. For Episode 4, the return increased to 26.661, with no cost. In Episode 5, the return was 30.604, maintaining a zero cost. Episode 6 had a return of 29.849 with no cost. Episode 7's return was 18.720, and there was no cost. Episode 8 saw a return of 29.906 with no cost. Episode 9 had a return of 21.585 and no cost. Episode 10 achieved a return of 31.386 with no cost.
+
+Continuing, Episode 11 had the highest return so far at 36.098, with no cost. Episode 12's return was 30.442, again with no cost. Episode 13 saw a return of 24.791 and no cost. Episode 14 had a return of 21.289, maintaining a zero cost. In Episode 15, the return was 25.532 with no cost. Episode 16's return was 20.047 and there was no cost. Episode 17 saw a return of 29.300 with no cost. For Episode 18, the return was 26.394, maintaining zero cost. Episode 19 had a return of 24.746 with no cost. In Episode 20, the return was 28.740, with no cost.
+
+Episode 21 saw a return of 24.807 with no cost. Episode 22 had a return of 25.870 and no cost. Episode 23's return was 28.791, maintaining zero cost. Episode 24 saw a return of 24.398 with no cost. Finally, Episode 25 had a return of 34.477, with no cost.
+
+![Figure_1](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/89d55bc1-fb38-4de3-b7be-c8c71b4809bd)
+
+
+
