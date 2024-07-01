@@ -1,3 +1,5 @@
+# PointGoal0
+
 1. After the first iteration, the system achieved a frame rate of 503 FPS, with a total of 3,000 timesteps completed in 5 seconds.
 
 2. In the second iteration, the FPS dropped to 451, accumulating 6,000 timesteps in 13 seconds. The training metrics included an approximate KL of 0.0038, clip fraction of 0.0437, clip range of 0.2, entropy loss of -2.84, explained variance of -3.51, learning rate of 0.0002, a loss of -0.00423, 10 updates, policy gradient loss of -0.00223, standard deviation of 0.999, and value loss of 0.00485.
