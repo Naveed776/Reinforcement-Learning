@@ -39,6 +39,11 @@
 19. By the nineteenth iteration, the episode length mean remains at 1000, and the episode reward mean increases to 11.6. The fps is 573, with a total time elapsed of 99 seconds and 57000 total timesteps. The approximate KL divergence is 0.0067282953, the clip fraction is 0.0714, the clip range is 0.2, and the entropy loss is -2.78. The explained variance is 0.732, the learning rate is 0.0001, the loss is -0.00143, and there have been 180 updates. The policy gradient loss is -0.00499, the standard deviation is 0.98, and the value loss is 0.0122.
 
 20. At the twentieth iteration, the episode length mean is still 1000, and the episode reward mean increases to 11.8. The fps is 573, with a total time elapsed of 105 seconds and 60000 total timesteps. The approximate KL divergence is 0.0048239266, the clip fraction is 0.0453, the clip range is 0.2, and the entropy loss is -2.78. The explained variance is 0.768, the learning rate is 0.0001, the loss is -0.00138, and there have been 190 updates. The policy gradient loss is -0.0031, the standard deviation is 0.98, and the value loss is 0.0137
+
+
+[PPoGoal0.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/dd9fcf5f-65a4-4ed2-87fc-9a72fe435a22)
+
+
 # Summary of Iterations
 ## Iteration 1-5:
 
