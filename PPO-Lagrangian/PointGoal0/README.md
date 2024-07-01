@@ -41,3 +41,36 @@
 19. By the nineteenth iteration, the FPS was 450, reaching 57,000 timesteps in 125 seconds. Training metrics included: approximate KL of 0.0146, clip fraction of 0.136, clip range of 0.2, entropy loss of -2.7, explained variance of 0.157, learning rate of 0.0002, a loss of -0.0318, 180 updates, policy gradient loss of -0.00236, standard deviation of 0.941, and value loss of 0.19.
 
 20. The twentieth iteration showed an FPS of 448, with 60,000 timesteps achieved in 132 seconds. Training metrics were: approximate KL of 0.0141, clip fraction of 0.133, clip range of 0.2, entropy loss of -2.69, explained variance of 0.288, learning rate of 0.0002, a loss of -0.0113, 190 updates, policy gradient loss of -0.00113, standard deviation of 0.943, and value loss of 0.219.
+
+
+[Screencast from 07-01-2024 07:39:10 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/50fc29fa-c30c-4051-a7d8-796bb1a7a9f4)
+
+
+
+# summarized version of the training process:
+
+Iteration 1: 503 FPS, 3,000 timesteps in 5s.
+Iteration 2: 451 FPS, 6,000 timesteps in 13s. Key metrics: KL 0.0038, loss -0.00423.
+Iteration 3: 459 FPS, 9,000 timesteps in 19s. Key metrics: KL 0.0106, loss 0.00494.
+Iteration 4: 459 FPS, 12,000 timesteps in 26s. Key metrics: KL 0.0101, loss -0.0295.
+Iteration 5: 464 FPS, 15,000 timesteps in 32s. Key metrics: KL 0.0091, loss 0.00568.
+Iteration 6: 465 FPS, 18,000 timesteps in 38s. Key metrics: KL 0.0103, loss -0.0185.
+Iteration 7: 457 FPS, 21,000 timesteps in 45s. Key metrics: KL 0.01, loss 0.00307.
+Iteration 8: 453 FPS, 24,000 timesteps in 52s. Key metrics: KL 0.0105, loss 0.00397.
+Iteration 9: 448 FPS, 27,000 timesteps in 60s. Key metrics: KL 0.0101, loss -0.00544.
+Iteration 10: 445 FPS, 30,000 timesteps in 67s. Key metrics: KL 0.0117, loss 0.0104.
+Iteration 11: 444 FPS, 33,000 timesteps in 74s. Key metrics: KL 0.0111, loss 0.0182.
+Iteration 12: 448 FPS, 36,000 timesteps in 80s. Key metrics: KL 0.0115, loss 0.0739.
+Iteration 13: 450 FPS, 39,000 timesteps in 86s. Key metrics: KL 0.0068, loss 0.0126.
+Iteration 14: 452 FPS, 42,000 timesteps in 92s. Key metrics: KL 0.0079, loss 0.0497.
+Iteration 15: 454 FPS, 45,000 timesteps in 99s. Key metrics: KL 0.0103, loss 0.0251.
+Iteration 16: 455 FPS, 48,000 timesteps in 105s. Key metrics: KL 0.0085, loss 0.149.
+Iteration 17: 455 FPS, 51,000 timesteps in 112s. Key metrics: KL 0.0079, loss 0.0717.
+Iteration 18: 453 FPS, 54,000 timesteps in 119s. Key metrics: KL 0.0118, loss -0.0113.
+Iteration 19: 450 FPS, 57,000 timesteps in 125s. Key metrics: KL 0.0146, loss -0.0318.
+Iteration 20: 448 FPS, 60,000 timesteps in 132s. Key metrics: KL 0.0141, loss -0.0113.
+Overall, the training was stable with FPS ranging from 444 to 503 and varying key metrics such as approximate KL and loss.
+# Episodes Return
+The episodes had returns ranging from 18.902 to 23.394, with no episode incurring any cost. The returns generally fluctuated around the low 20s, with a few notable peaks and dips. The highest return was 23.394 in Episode 5, while the lowest was 18.902 in Episode 25. Overall, the performance was consistent, with minor variations throughout the series.
+![Figure_1](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/bfdf8ca6-90e3-47e7-a16e-696d94faac2c)
+
