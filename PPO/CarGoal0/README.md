@@ -1,3 +1,5 @@
+# CarGoal0
+
 At iteration 1, the average episode length was 1000, with an average reward of 8.15. The system operated at 485 frames per second (fps), with a total of 3000 timesteps, taking 6 seconds to complete.
 By iteration 2, the average episode length remained at 1000, but the average reward increased to 8.29. The system's performance improved slightly to 487 fps, with a total of 6000 timesteps over 12 seconds. Training statistics included an approximate KL divergence of 0.0059, a clip fraction of 0.0612, an entropy loss of -2.84, an explained variance of -6.94, a learning rate of 0.0001, a loss of 0.00012, a policy gradient loss of -0.00641, a standard deviation of 1, and a value loss of 0.0182.
 At iteration 3, the average episode length was still 1000, and the average reward increased to 8.56. The system achieved 504 fps, with a total of 9000 timesteps in 17 seconds. Training statistics showed an approximate KL divergence of 0.0064, a clip fraction of 0.067, an entropy loss of -2.84, an explained variance of 0.0876, a learning rate of 0.0001, a loss of -0.00896, a policy gradient loss of -0.00738, a standard deviation of 0.999, and a value loss of 0.00509.
