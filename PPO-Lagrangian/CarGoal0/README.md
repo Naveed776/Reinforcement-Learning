@@ -1,41 +1,58 @@
-1. After the first iteration, the system achieved a frame rate of 503 FPS, with a total of 3,000 timesteps completed in 5 seconds.
+# CarGoal0
 
-2. In the second iteration, the FPS dropped to 451, accumulating 6,000 timesteps in 13 seconds. The training metrics included an approximate KL of 0.0038, clip fraction of 0.0437, clip range of 0.2, entropy loss of -2.84, explained variance of -3.51, learning rate of 0.0002, a loss of -0.00423, 10 updates, policy gradient loss of -0.00223, standard deviation of 0.999, and value loss of 0.00485.
 
-3. By the third iteration, the FPS was 459 with a total of 9,000 timesteps in 19 seconds. Training metrics were: approximate KL of 0.0106, clip fraction of 0.085, clip range of 0.2, entropy loss of -2.84, explained variance of 0.138, learning rate of 0.0002, a loss of 0.00494, 20 updates, policy gradient loss of -0.00927, standard deviation of 1, and value loss of 0.00261.
+After 6 seconds and 1 iteration, the model achieved a frame rate of 466 FPS with a total of 3000 timesteps.
 
-4. During the fourth iteration, the FPS remained at 459, reaching 12,000 timesteps in 26 seconds. The training metrics included an approximate KL of 0.0101, clip fraction of 0.139, clip range of 0.2, entropy loss of -2.84, explained variance of 0.231, learning rate of 0.0002, a loss of -0.0295, 30 updates, policy gradient loss of -0.0107, standard deviation of 1, and value loss of 0.0019.
+By the 2nd iteration, 15 seconds had elapsed, resulting in 395 FPS and 6000 total timesteps. Training metrics were as follows: approx_kl was 0.0050040293, clip_fraction was 0.0433, clip_range was 0.2, entropy_loss was -2.84, explained_variance was -7.55, learning_rate was 0.0002, loss was -0.00822, n_updates were 10, policy_gradient_loss was -0.00421, std was 1.01, and value_loss was 0.00632.
 
-5. In the fifth iteration, the FPS was 464, with 15,000 timesteps achieved in 32 seconds. The training metrics were: approximate KL of 0.0091, clip fraction of 0.0958, clip range of 0.2, entropy loss of -2.82, explained variance of 0.00851, learning rate of 0.0002, a loss of 0.00568, 40 updates, policy gradient loss of -0.00477, standard deviation of 0.977, and value loss of 0.00867.
+In the 3rd iteration after 22 seconds, the FPS was 392 with 9000 total timesteps. Training metrics included: approx_kl of 0.007902339, clip_fraction of 0.0829, clip_range of 0.2, entropy_loss of -2.84, explained_variance of 0.11, learning_rate of 0.0002, loss of -0.0178, n_updates of 20, policy_gradient_loss of -0.00951, std of 0.999, and value_loss of 0.00385.
 
-6. The sixth iteration showed an FPS of 465, accumulating 18,000 timesteps in 38 seconds. Training metrics were: approximate KL of 0.0103, clip fraction of 0.124, clip range of 0.2, entropy loss of -2.78, explained variance of 0.0322, learning rate of 0.0002, a loss of -0.0185, 50 updates, policy gradient loss of -0.00539, standard deviation of 0.969, and value loss of 0.018.
+After 30 seconds and 4 iterations, the FPS was 389 with a total of 12000 timesteps. The training metrics were: approx_kl was 0.008181086, clip_fraction was 0.0767, clip_range was 0.2, entropy_loss was -2.84, explained_variance was 0.311, learning_rate was 0.0002, loss was -0.00793, n_updates were 30, policy_gradient_loss was -0.00812, std was 1, and value_loss was 0.00332.
 
-7. By the seventh iteration, the FPS was 457 with a total of 21,000 timesteps in 45 seconds. Training metrics included: approximate KL of 0.01, clip fraction of 0.102, clip range of 0.2, entropy loss of -2.77, explained variance of 0.216, learning rate of 0.0002, a loss of 0.00307, 60 updates, policy gradient loss of -0.00473, standard deviation of 0.966, and value loss of 0.0181.
+By the 5th iteration, 38 seconds had elapsed, yielding 388 FPS and 15000 total timesteps. Training metrics were: approx_kl was 0.011152441, clip_fraction was 0.135, clip_range was 0.2, entropy_loss was -2.83, explained_variance was 0.255, learning_rate was 0.0002, loss was 0.000687, n_updates were 40, policy_gradient_loss was -0.0117, std was 0.994, and value_loss was 0.00346.
 
-8. During the eighth iteration, the FPS was 453, reaching 24,000 timesteps in 52 seconds. Training metrics were: approximate KL of 0.0105, clip fraction of 0.123, clip range of 0.2, entropy loss of -2.77, explained variance of 0.412, learning rate of 0.0002, a loss of 0.00397, 70 updates, policy gradient loss of -0.00525, standard deviation of 0.966, and value loss of 0.0244.
+After 46 seconds and 6 iterations, the FPS was 389 with 18000 total timesteps. Training metrics included: approx_kl of 0.013431942, clip_fraction of 0.153, clip_range of 0.2, entropy_loss of -2.83, explained_variance of 0.0376, learning_rate of 0.0002, loss of -0.0123, n_updates of 50, policy_gradient_loss of -0.0109, std of 0.995, and value_loss of 0.00505.
 
-9. In the ninth iteration, the FPS was 448, with 27,000 timesteps completed in 60 seconds. The training metrics included an approximate KL of 0.0101, clip fraction of 0.11, clip range of 0.2, entropy loss of -2.78, explained variance of 0.62, learning rate of 0.0002, a loss of -0.00544, 80 updates, policy gradient loss of -0.00419, standard deviation of 0.973, and value loss of 0.0279.
+By the 7th iteration, 54 seconds had passed, resulting in 388 FPS and 21000 total timesteps. The training metrics were: approx_kl was 0.009070957, clip_fraction was 0.111, clip_range was 0.2, entropy_loss was -2.81, explained_variance was -0.343, learning_rate was 0.0002, loss was 0.0107, n_updates were 60, policy_gradient_loss was -0.00838, std was 0.98, and value_loss was 0.00608.
 
-10. By the tenth iteration, the FPS was 445, achieving 30,000 timesteps in 67 seconds. Training metrics were: approximate KL of 0.0117, clip fraction of 0.128, clip range of 0.2, entropy loss of -2.77, explained variance of 0.537, learning rate of 0.0002, a loss of 0.0104, 90 updates, policy gradient loss of -0.00789, standard deviation of 0.965, and value loss of 0.0364.
+After 61 seconds and 8 iterations, the FPS was 388 with 24000 total timesteps. Training metrics included: approx_kl of 0.009768481, clip_fraction of 0.132, clip_range of 0.2, entropy_loss of -2.8, explained_variance of 0.0523, learning_rate of 0.0002, loss of -0.0186, n_updates of 70, policy_gradient_loss of -0.00874, std of 0.983, and value_loss of 0.00756.
 
-11. The eleventh iteration showed an FPS of 444, with 33,000 timesteps in 74 seconds. Training metrics included: approximate KL of 0.0111, clip fraction of 0.106, clip range of 0.2, entropy loss of -2.76, explained variance of 0.538, learning rate of 0.0002, a loss of 0.0182, 100 updates, policy gradient loss of -0.00264, standard deviation of 0.956, and value loss of 0.0509.
+By the 9th iteration, 69 seconds had elapsed, achieving 386 FPS with 27000 total timesteps. Training metrics were: approx_kl was 0.0133874575, clip_fraction was 0.187, clip_range was 0.2, entropy_loss was -2.81, explained_variance was 0.114, learning_rate was 0.0002, loss was -0.0268, n_updates were 80, policy_gradient_loss was -0.0127, std was 0.984, and value_loss was 0.0106.
 
-12. During the twelfth iteration, the FPS was 448, reaching 36,000 timesteps in 80 seconds. Training metrics were: approximate KL of 0.0115, clip fraction of 0.14, clip range of 0.2, entropy loss of -2.73, explained variance of 0.611, learning rate of 0.0002, a loss of 0.0739, 110 updates, policy gradient loss of -0.007, standard deviation of 0.944, and value loss of 0.0711.
+After 78 seconds and 10 iterations, the FPS was 384 with 30000 total timesteps. Training metrics included: approx_kl of 0.010736624, clip_fraction of 0.132, clip_range of 0.2, entropy_loss of -2.81, explained_variance of -0.0011, learning_rate of 0.0002, loss of -0.0172, n_updates of 90, policy_gradient_loss of -0.00862, std of 0.985, and value_loss of 0.014.
 
-13. By the thirteenth iteration, the FPS was 450, achieving 39,000 timesteps in 86 seconds. Training metrics included: approximate KL of 0.0068, clip fraction of 0.0878, clip range of 0.2, entropy loss of -2.71, explained variance of 0.484, learning rate of 0.0002, a loss of 0.0126, 120 updates, policy gradient loss of -0.00323, standard deviation of 0.933, and value loss of 0.0835.
+In the 11th iteration after 85 seconds, the FPS was 384 with 33000 total timesteps. Training metrics were: approx_kl was 0.0140347, clip_fraction was 0.14, clip_range was 0.2, entropy_loss was -2.82, explained_variance was -0.134, learning_rate was 0.0002, loss was 0.0582, n_updates were 100, policy_gradient_loss was -0.00732, std was 0.995, and value_loss was 0.017.
 
-14. In the fourteenth iteration, the FPS was 452, with a total of 42,000 timesteps in 92 seconds. Training metrics were: approximate KL of 0.0079, clip fraction of 0.108, clip range of 0.2, entropy loss of -2.7, explained variance of 0.574, learning rate of 0.0002, a loss of 0.0497, 130 updates, policy gradient loss of -0.00179, standard deviation of 0.934, and value loss of 0.0872.
+By the 12th iteration, 93 seconds had passed, resulting in 383 FPS and 36000 total timesteps. The training metrics included: approx_kl of 0.008352002, clip_fraction of 0.107, clip_range of 0.2, entropy_loss of -2.83, explained_variance of -0.0357, learning_rate of 0.0002, loss of -0.0136, n_updates of 110, policy_gradient_loss of -0.00644, std of 0.999, and value_loss of 0.0276.
 
-15. The fifteenth iteration showed an FPS of 454, accumulating 45,000 timesteps in 99 seconds. Training metrics included: approximate KL of 0.0103, clip fraction of 0.124, clip range of 0.2, entropy loss of -2.69, explained variance of 0.336, learning rate of 0.0002, a loss of 0.0251, 140 updates, policy gradient loss of -0.00189, standard deviation of 0.921, and value loss of 0.133.
+After 101 seconds and 13 iterations, the FPS was 382 with 39000 total timesteps. Training metrics were: approx_kl was 0.008372323, clip_fraction was 0.0919, clip_range was 0.2, entropy_loss was -2.84, explained_variance was 0.137, learning_rate was 0.0002, loss was 0.00546, n_updates were 120, policy_gradient_loss was -0.00639, std was 0.999, and value_loss was 0.0216.
 
-16. By the sixteenth iteration, the FPS was 455, with 48,000 timesteps in 105 seconds. Training metrics were: approximate KL of 0.0085, clip fraction of 0.126, clip range of 0.2, entropy loss of -2.68, explained variance of 0.237, learning rate of 0.0002, a loss of 0.149, 150 updates, policy gradient loss of -0.00242, standard deviation of 0.931, and value loss of 0.163.
+In the 14th iteration after 109 seconds, the FPS was 382 with 42000 total timesteps. Training metrics included: approx_kl of 0.01053756, clip_fraction of 0.128, clip_range of 0.2, entropy_loss of -2.83, explained_variance of -0.158, learning_rate of 0.0002, loss of 0.0309, n_updates of 130, policy_gradient_loss of -0.00911, std of 0.996, and value_loss of 0.027.
 
-17. During the seventeenth iteration, the FPS was 455, achieving 51,000 timesteps in 112 seconds. Training metrics included: approximate KL of 0.0079, clip fraction of 0.114, clip range of 0.2, entropy loss of -2.7, explained variance of 0.233, learning rate of 0.0002, a loss of 0.0717, 160 updates, policy gradient loss of -0.00131, standard deviation of 0.935, and value loss of 0.178.
+By the 15th iteration, 117 seconds had passed, yielding 381 FPS and 45000 total timesteps. The training metrics were: approx_kl was 0.011230865, clip_fraction was 0.106, clip_range was 0.2, entropy_loss was -2.83, explained_variance was 0.0976, learning_rate was 0.0002, loss was 0.0203, n_updates were 140, policy_gradient_loss was -0.0063, std was 0.996, and value_loss was 0.0265.
 
-18. In the eighteenth iteration, the FPS was 453, with 54,000 timesteps completed in 119 seconds. Training metrics were: approximate KL of 0.0118, clip fraction of 0.133, clip range of 0.2, entropy loss of -2.7, explained variance of 0.356, learning rate of 0.000
+After 125 seconds and 16 iterations, the FPS was 382 with 48000 total timesteps. Training metrics included: approx_kl of 0.0072818263, clip_fraction of 0.109, clip_range of 0.2, entropy_loss of -2.83, explained_variance of 0.0759, learning_rate of 0.0002, loss of -0.00198, n_updates of 150, policy_gradient_loss of -0.00533, std of 0.996, and value_loss of 0.0345.
 
-2, a loss of -0.0113, 170 updates, policy gradient loss of -0.00096, standard deviation of 0.936, and value loss of 0.179.
+By the 17th iteration, 133 seconds had elapsed, achieving 381 FPS with 51000 total timesteps. Training metrics were: approx_kl was 0.010567943, clip_fraction was 0.13, clip_range was 0.2, entropy_loss was -2.83, explained_variance was 0.141, learning_rate was 0.0002, loss was 0.000834, n_updates were 160, policy_gradient_loss was -0.00918, std was 0.998, and value_loss was 0.0332.
 
-19. By the nineteenth iteration, the FPS was 450, reaching 57,000 timesteps in 125 seconds. Training metrics included: approximate KL of 0.0146, clip fraction of 0.136, clip range of 0.2, entropy loss of -2.7, explained variance of 0.157, learning rate of 0.0002, a loss of -0.0318, 180 updates, policy gradient loss of -0.00236, standard deviation of 0.941, and value loss of 0.19.
+After 141 seconds and 18 iterations, the FPS was 381 with 54000 total timesteps. Training metrics included: approx_kl of 0.009238922, clip_fraction of 0.105
 
-20. The twentieth iteration showed an FPS of 448, with 60,000 timesteps achieved in 132 seconds. Training metrics were: approximate KL of 0.0141, clip fraction of 0.133, clip range of 0.2, entropy loss of -2.69, explained variance of 0.288, learning rate of 0.0002, a loss of -0.0113, 190 updates, policy gradient loss of -0.00113, standard deviation of 0.943, and value loss of 0.219.
+, clip_range of 0.2, entropy_loss of -2.83, explained_variance of 0.0684, learning_rate of 0.0002, loss of -0.0126, n_updates of 170, policy_gradient_loss of -0.00568, std of 0.998, and value_loss of 0.0375.
+
+In the 19th iteration after 149 seconds, the FPS was 381 with 57000 total timesteps. The training metrics were: approx_kl was 0.011729388, clip_fraction was 0.114, clip_range was 0.2, entropy_loss was -2.83, explained_variance was -0.123, learning_rate was 0.0002, loss was -0.00866, n_updates were 180, policy_gradient_loss was -0.00647, std was 0.998, and value_loss was 0.0413.
+
+By the 20th iteration, 157 seconds had passed, resulting in 381 FPS and 60000 total timesteps. Training metrics included: approx_kl of 0.010135678, clip_fraction of 0.11, clip_range of 0.2, entropy_loss of -2.83, explained_variance of 0.0436, learning_rate of 0.0002, loss of -0.017, n_updates of 190, policy_gradient_loss of -0.006, std of 0.998, and value_loss of 0.0368.
+[Screencast from 07-01-2024 08:09:58 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/64956868-cdcb-4666-9589-b7035762daf7)
+
+
+
+
+The returns ranged from -0.133 to 8.254.
+Episode 6 had the highest return (8.254).
+Episode 18 had the lowest return (-0.133).
+The average return was approximately 4.64.
+No episode had any associated costs.
+
+
+![Figure_1](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/62c3d891-0b0f-4366-a251-ba90182d8b54)
+
