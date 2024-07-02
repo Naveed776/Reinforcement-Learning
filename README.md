@@ -4,7 +4,7 @@
 
 Certainly! Here's the summary and comparison in a table format:
 
-| Metric                     | PPO POINTGOAL0                  | PPO Lagrangian Goal 0           |
+| Metric                     | PPO                             | PPO Lagrangian                  |
 |----------------------------|---------------------------------|---------------------------------|
 | **Iterations**             | 30+                             | 27+                             |
 | **Time Elapsed (seconds)** | 186+                            | 176+                            |
