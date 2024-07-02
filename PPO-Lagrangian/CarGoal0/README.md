@@ -42,6 +42,7 @@ After 141 seconds and 18 iterations, the FPS was 381 with 54000 total timesteps.
 In the 19th iteration after 149 seconds, the FPS was 381 with 57000 total timesteps. The training metrics were: approx_kl was 0.011729388, clip_fraction was 0.114, clip_range was 0.2, entropy_loss was -2.83, explained_variance was -0.123, learning_rate was 0.0002, loss was -0.00866, n_updates were 180, policy_gradient_loss was -0.00647, std was 0.998, and value_loss was 0.0413.
 
 By the 20th iteration, 157 seconds had passed, resulting in 381 FPS and 60000 total timesteps. Training metrics included: approx_kl of 0.010135678, clip_fraction of 0.11, clip_range of 0.2, entropy_loss of -2.83, explained_variance of 0.0436, learning_rate of 0.0002, loss of -0.017, n_updates of 190, policy_gradient_loss of -0.006, std of 0.998, and value_loss of 0.0368.
+
 [Screencast from 07-01-2024 08:09:58 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/64956868-cdcb-4666-9589-b7035762daf7)
 
 
