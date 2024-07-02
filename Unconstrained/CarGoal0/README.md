@@ -44,5 +44,16 @@
 https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/a82effa0-6bce-474f-8b02-24d70bc4f0f6
 
 
-  
+  The training involved 20 iterations where the mean episode reward steadily increased from 7.21 to 10.30. Each iteration involved increasing amounts of time and timesteps, with a stable FPS around 530. This indicates consistent improvement in the agent's performance and efficient training throughput over the course of the training process.
+
+
+  The returns for each episode of the model or agent were as follows:
+
+The returns ranged from a minimum of 12.394 in Episode 18 to a maximum of 19.487 in Episode 10.
+The average return across all episodes was approximately 15.912.
+Episodes with returns above the average include Episodes 2, 3, 7, 8, 10, 16, 17, 21, and 22.
+Episodes with returns below the average include Episodes 5, 9, 11, 12, 13, 14, 18, 19, 20, 23, 24, and 25.
+Overall, the returns varied across episodes, indicating fluctuations in the performance of the model or agent during different training or evaluation phases.
+
+![Figure_1](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/ac3bc5bf-4b13-4de4-8918-044743589b39)
 
