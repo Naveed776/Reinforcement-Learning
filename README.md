@@ -54,8 +54,11 @@
 ### Summary of Comparison
 **Average FPS:**
 PPO BUTTON runs at approximately 417 FPS, while PPO Lagrgain Button runs faster at around 457 FPS. 
+
 **Iterations and Time Elapsed:**
-PPOLagrgainButton also achieves higher explained variances (0.602 at Iteration 20, 0.565 at Iteration 30) compared to PPOBUTTON0 (0.576 at Iteration 20, 0.442 at Iteration 30), indicating potentially better performance in predicting the value function.  **Policy Gradient Loss:**
+PPOLagrgainButton also achieves higher explained variances (0.602 at Iteration 20, 0.565 at Iteration 30) compared to PPOBUTTON0 (0.576 at Iteration 20, 0.442 at Iteration 30), indicating potentially better performance in predicting the value function.
+
+**Policy Gradient Loss:**
 Both algorithms show similar policy gradient losses (-0.0063 to -0.00386 for PPOBUTTON0, -0.00841 to -0.0028 for PPOLagrgainButton),
 
 **Conclusion:**
