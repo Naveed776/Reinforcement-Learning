@@ -43,7 +43,7 @@ Certainly! Here's the summary and comparison in a table format:
 
 **Overall, PPO appears to have better performance in terms of explained variance and smoother value loss trends, while PPO Lagrangian has a slightly higher FPS.**
 
-# Task 1 PointButton0
+# Task 2 PointButton0
 
 PPO BUTTON runs at approximately 417 FPS, while PPO Lagrgain Button runs faster at around 457 FPS. PPOLagrgainButton also achieves higher explained variances (0.602 at Iteration 20, 0.565 at Iteration 30) compared to PPOBUTTON0 (0.576 at Iteration 20, 0.442 at Iteration 30), indicating potentially better performance in predicting the value function. Both algorithms show similar policy gradient losses (-0.0063 to -0.00386 for PPOBUTTON0, -0.00841 to -0.0028 for PPOLagrgainButton), but specific safety comparison requires further trials to assess failure rates.
 
@@ -58,3 +58,30 @@ PPO BUTTON runs at approximately 417 FPS, while PPO Lagrgain Button runs faster 
 **Conclusion:**
 
 PPO Lagrgain Button shows faster convergence per iteration with higher FPS and better explained variance metrics, suggesting potential advantages in performance. However, a direct safety comparison requires additional trials to assess policy robustness in real-world applications.
+
+
+# Task 3 CarGoal 
+
+**Summary and Comparison Table:**
+
+| Metric                     | PPOlagrgainCarGoa               | PPOCARGOAL                      |
+|----------------------------|---------------------------------|---------------------------------|
+| **Average Episode Reward Mean** | 9.47                            | 10.5                            |
+| **Entropy Loss**            | -2.78                           | -2.76                           |
+| **Explained Variance**      | 0.247                           | -0.00251                         |
+| **Policy Gradient Loss**    | -0.0052                         | -0.00857                        |
+| **Value Loss**              | 0.00932                         | 0.0156                          |
+
+**Summary:**
+
+- **Average Episode Reward Mean:** PPOCARGOAL achieves a higher average episode reward mean of 10.5 compared to PPOlagrgainCarGoa's 9.47, indicating better performance in terms of rewards obtained during training episodes.
+  
+- **Entropy Loss:** Both models have similar entropy losses, suggesting a balanced exploration-exploitation trade-off.
+  
+- **Explained Variance:** PPOCARGOAL shows better prediction of returns with an explained variance of 0.247, whereas PPOlagrgainCarGoa has a variance closer to zero (-0.00251).
+  
+- **Policy Gradient Loss:** PPOlagrgainCarGoa has a lower policy gradient loss (-0.0052) compared to PPOCARGOAL (-0.00857), indicating better policy optimization.
+  
+- **Value Loss:** PPOlagrgainCarGoa also performs better in terms of value function optimization with a lower value loss (0.00932) compared to PPOCARGOAL (0.0156).
+
+**Conclusion:** Overall, while PPOCARGOAL achieves a higher average episode reward mean, PPOlagrgainCarGoa shows slightly better performance in terms of explained variance, policy gradient loss, and value loss. The choice between the two models would depend on the specific priorities and trade-offs relevant to the application of the reinforcement learning model.
