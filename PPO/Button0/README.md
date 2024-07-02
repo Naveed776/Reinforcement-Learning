@@ -74,6 +74,8 @@ For this iteration, the average episode length remained at 1000, and the average
 
 Iteration 25:
 In this final iteration, the average episode length remained at 1000, and the average episode reward increased to 14.4. The training FPS was 548, with total timesteps reaching 75000, and a time elapsed of 133 seconds. The training metrics included an approximate KL divergence of 0.0034, a clip fraction of 2.52%, and a clip range of 0.2. The entropy loss was -2.82, and the explained variance was 0.72. The learning rate was 0.0001, with a loss of -0.00282, number of updates at 240, a policy gradient loss of -0.00179, a standard deviation of 0.989, and a value loss of 0.00682.
+
+
 [Screencast from 06-30-2024 07:56:43 PM.webm](https://github.com/Naveed776/Reinforcement-Learning/assets/91262613/89fa6501-c9c9-4c9f-8eac-2dd884b816bc)
 
 
