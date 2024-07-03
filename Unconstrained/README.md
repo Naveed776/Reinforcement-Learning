@@ -20,6 +20,13 @@
   - Marked by further improvements in episode rewards and adjustments in training metrics.
 - **Final Iterations (16-22):** 
   - Peaked in episode reward mean at 12.3, with reduced KL divergence and varied value loss indicating model convergence.
+ 
+    Reawrd Epsiode 
+  Minimum Return: 19.712 (Episode 15)
+  Maximum Return: 28.056 (Episode 24)
+  Mean Return: Approximately 24.165
+  Median Return: Approximately 24.226
+  This summary gives you an idea of the range and central tendency of the episode returns across the 25 episodes. If you need further         analysis or specific insights, feel free to ask!
 
 ### Conclusion:
 
