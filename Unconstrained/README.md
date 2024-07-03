@@ -70,7 +70,7 @@ Overall, the agent appears to be making steady progress in learning the environm
 
 # CarGoal0
 
-| Metric                  | Unconstrained |
+| Metric                  | Unconstrained PPO|
 |-------------------------|------------|
 | Iterations              | 1470       |
 | Time Elapsed (seconds)  | 9378.26    |
@@ -90,4 +90,40 @@ Policy Gradient Loss: Mean: 0.000259, Std: 0.000076
 Value Loss: Mean: 0.360659, Std: 0.075206
 Explained Variance: Mean: 0.924522, Std: 0.015844
 Conclusion:
-The training ran for approximately 9378 seconds over 1470 iterations, achieving a mean policy gradient loss of 0.000259 and a high mean explained variance of 0.924522. However, the training processed frames at a very low rate of 0.156 FPS, indicating potential performance limitations or computational complexity. The higher standard deviation in value loss (0.075206) suggests some variability in training the value function.
+The training ran for approximately 9378 seconds over 1470 iterations, achieving a mean policy gradient loss of 0.000259 and a high mean explained variance of 0.924522. However, the training processed frames at a very low rate of 0.156 FPS, indicating potential performance limitations or computational complexity. The higher standard deviation in value loss (0.075206) suggests some variability in training the 
+value function.
+
+# CarButton0
+
+| Metric                  | Unconstrained PPO|
+|-------------------------|------------|
+| Iterations              | 27        |
+| Time Elapsed (seconds)  | Approximately 5568.5    |
+| Average FPS             | 122.0     |
+| Policy Gradient Loss    |  0.0013|
+| Value Loss              | 0.5|
+| Explained Variance      |  0.944 |
+
+## Training Progress:
+
+Performance Metrics:
+
+Average Episode Length: Consistently around 1000 steps per episode.
+Average Episode Reward: Gradually increases from 7.99 to 10.6, indicating improving policy performance.
+Training Time and Iterations:
+
+Each iteration takes approximately 6 seconds.
+FPS ranges between 457 to 498, averaging around 480 FPS.
+Total training timesteps increase from 3000 to 81000 over 27 iterations.
+Training Progress:
+
+Learning Rate: Fixed at 0.0001 throughout training.
+Policy Gradient Loss: Decreases steadily across iterations, indicating policy improvement.
+Value Loss: Generally low and stable, suggesting good value estimation.
+Entropy Loss: Maintains negativity, ensuring sufficient exploration.
+Convergence:
+
+Approximate KL Divergence and Clip Fraction: Generally low, indicating stable policy updates and adherence to clipping.
+Explained Variance: Shows variability, suggesting fluctuations in value function prediction accuracy.
+Conclusion:
+The reinforcement learning model demonstrates a promising learning curve with improvements in episode rewards and stable performance metrics over iterations. However, fluctuations in explained variance and some loss metrics indicate potential areas for further optimization, particularly in hyperparameter tuning or exploration strategies. Overall, the training process exhibits steady improvement and convergence typical of policy gradient methods, highlighting its ability to learn effectively on the given benchmarks..
