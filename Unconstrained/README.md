@@ -67,3 +67,27 @@ Here's the summarized information in a table format based on the metrics you spe
    - **Value Loss**: Generally decreases, indicating improved accuracy of the value function estimations.
 
 Overall, the agent appears to be making steady progress in learning the environment and improving its policy and value functions. The convergence trends suggest that with more iterations, the agent's performance in terms of rewards and stability is likely to continue improving.
+
+# CarGoal0
+
+| Metric                  | Unconstrained |
+|-------------------------|------------|
+| Iterations              | 1470       |
+| Time Elapsed (seconds)  | 9378.26    |
+| Average FPS             | 0.156      |
+| Policy Gradient Loss    | Mean: 0.000259, Std: 0.000076 |
+| Value Loss              | Mean: 0.360659, Std: 0.075206 |
+| Explained Variance      | Mean: 0.924522, Std: 0.015844 |
+
+## Training Progress:
+
+Iterations: 1470
+Time Elapsed: 9378.26 seconds
+Average FPS: 0.156
+Loss Metrics:
+
+Policy Gradient Loss: Mean: 0.000259, Std: 0.000076
+Value Loss: Mean: 0.360659, Std: 0.075206
+Explained Variance: Mean: 0.924522, Std: 0.015844
+Conclusion:
+The training ran for approximately 9378 seconds over 1470 iterations, achieving a mean policy gradient loss of 0.000259 and a high mean explained variance of 0.924522. However, the training processed frames at a very low rate of 0.156 FPS, indicating potential performance limitations or computational complexity. The higher standard deviation in value loss (0.075206) suggests some variability in training the value function.
