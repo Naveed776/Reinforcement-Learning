@@ -43,7 +43,6 @@ Here's the summarized information in a table format based on the metrics you spe
 | **Policy Gradient Loss** | 0.01 |
 | **Value Loss**           | 0.289|
 | **Explained Variance**   | 0.811|
-Based on the provided training performance metrics for your reinforcement learning agent, here's a summary of its convergence over various benchmarks:
 
 1. **Performance Summary**:
    - **Iterations**: The training progresses through multiple iterations, with each iteration increasing the total timesteps.
